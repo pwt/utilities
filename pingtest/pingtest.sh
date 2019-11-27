@@ -22,7 +22,7 @@ do
     fi
     if [ $STATE != $OLDSTATE ]
     then
-        echo $(date "+%Y-%m-%d : %H:%M:%S :") "Host" $HOST "State is" $STATE
+        echo $(date "+%Y-%m-%d @ %H:%M:%S :") $HOST "is" $STATE
         OLDSTATE=$STATE
     fi
     sleep $SLEEP
