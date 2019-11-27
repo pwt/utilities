@@ -10,7 +10,7 @@ SLEEP=$2
 
 STATE="NEW"
 OLDSTATE="NEW"
-echo $(date "+%Y-%m-%d : %H:%M:%S :") "Starting pings to" $HOST", waiting" $SLEEP"s between pings"
+echo $(date "+%Y-%m-%d @ %H:%M:%S :") "Start pings to" $HOST". Wait" $SLEEP"s between pings."
 while true
 do
     ping -c 1 -W 3 $HOST > /dev/null
