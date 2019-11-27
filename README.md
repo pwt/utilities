@@ -1,2 +1,2 @@
-# utilities
-General utility scripts and programs
+# Utilities
+General utility scripts and programs.
